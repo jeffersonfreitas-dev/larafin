@@ -1,4 +1,4 @@
-.home-container {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,23 +7,23 @@
   width: 100%;
 }
 
-.home-container h1{
+.container h1{
   font-size: 48px;
   margin-bottom: 8px;
 }
 
-.home-container span{
+.container span{
   margin-bottom: 28px;
 }
 
-.home-form{
+.form{
   display: flex;
   flex-direction: column;
   width: 90%;
   max-width: 480px;
 }
 
-.home-form input{
+.form input{
   border: 0;
   margin-bottom: 12px;
   height: 36px;
@@ -31,7 +31,7 @@
   padding: 0 8px;
 }
 
-.home-form button{
+.form button{
   height: 36px;
   border: 0;
   border-radius: 4px;
@@ -40,7 +40,7 @@
   font-size: 18px;
 }
 
-.home-form textarea{
+.form textarea{
   margin-bottom: 12px;
   border: 0;
   height: 90px;
